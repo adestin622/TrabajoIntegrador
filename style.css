@@ -1,0 +1,215 @@
+.contendor_principal{
+    position: static;
+    top: 0;
+    min-width: 550px;
+}
+.nav-conteiner{
+    background-color: rgb(53, 58, 64);
+}
+.nav-conteiner img{
+    width: 150px;
+}
+.nav_derecho a{
+    color: rgb(154, 153, 152);
+    font-weight: 450;
+    font-size: 1.1rem;
+}
+.nav_derecho a:hover{
+    color: rgb(255, 255,255);
+}
+#compra-ticket{
+    color: rgb(44, 155, 67);
+}
+#compra-ticket:hover{
+    color: rgb(63, 216, 93);
+}
+#conferencia{
+    color: rgb(231, 231, 231);
+}
+#conferencia:hover{
+    color: rgb(255, 255, 255);
+}
+.conf-title{
+    color: #fff;
+    font-size: 1.6rem;
+}
+.codo-logo{
+    width: 150px;
+}
+.navbar{
+    display: none;
+    background-color: rgb(53, 58, 64) !important;
+    height: 90.36px;
+}
+.navbar-toggler{
+    border-color: #fff;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+@media (max-width: 1194.5px){
+    .navbar{
+        display: inherit;
+    }
+    .nav_derecho{
+        display: none;
+    }
+}
+
+/* carusel */
+.carousel-caption{
+    position: absolute;
+    bottom: 37%;
+}
+.carousel-item img{
+    filter: brightness(65%);
+    
+}
+#titulo{
+    font-size: 2.4vw;
+    text-shadow: 1px 1px 10px black;
+}
+.parrafo{
+    font-size: 1.35vw;
+    text-shadow: 1px 1px 10px black;
+}
+.boton{
+    width: 11vw;
+    height: 3vw;
+    margin: 15px 10px 0 0;
+    font-size: 1.1vw;
+    padding: 0.6vw 0.2vw 0.2vw;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 10%;
+}
+
+/* Oradores */
+.card-text{
+    text-align: justify;
+    line-height: 170%;
+}
+
+.card{
+    margin: 8px;
+}
+.col{
+    padding: 10px;
+}
+
+/* Honolulu */
+.honolulu-text input{
+    width: 9vw;
+    height: 3vw;
+    font-size: 1.2vw;
+    padding: 0.5vw;
+}
+.imagen{
+    padding: 0;
+    margin: 0;
+}
+.imagen img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.text-honolulu{
+    font-size: 1.33vw;
+}
+.title-honolulu{
+    font-size: 2.5vw;
+}
+/* formulario oradores */
+.control{
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#txt-area{
+    height: 150px;
+}
+/* footer */
+.foot{
+    display: flex;
+    background-color: rgb(30, 66, 88);
+    width: 100%;
+    /* height: 6rem; */
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.foot a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.foot li{
+    text-align: center;
+    list-style: none;
+    margin: 0 2rem 0 2rem;
+}
+.foot ul{
+    padding: 0;
+    margin: 1rem;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+}
+
+/* modal uno */
+.ventana-modal{
+    display: flex;
+    background-color: rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.flotante{
+    background-color: #fff;
+    width: 380px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.flotante h2{
+    margin: 0;
+}
+
+.flotante button{
+    background-color: #47a386;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 25px;
+    margin-top: 0.9rem;
+}
+.show{
+    pointer-events: auto;
+    opacity: 1;
+    transition: 1s;
+}
+/* Compra de ticket */
+#recipient-entradas::-webkit-inner-spin-button, #recipient-entradas::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
